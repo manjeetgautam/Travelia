@@ -1,21 +1,21 @@
 import React from 'react'
-import nabarStyle from './Navbar.module.css';
+import style from './Navbar.module.css';
 import {MenuItems} from './MenuItems'
 
 
 export const Navbar = () => {
   return (
-    <nav className={MenuItems}>
+    <nav className={style.navbarItems}>
 
-        <h1 className='navbar-Logo'>Travelia</h1>
+        <h1 className={style.navbarLogo}>Travelia</h1>
 
-        <ul className='navbar-menu'>
+        <ul className={style.navbarMenu}>
 
             {
                 MenuItems.map((item,index)=>{
                     return(
-                        <li key={index}>
-            <a href={item.url}><i className={item.icon}></i>{item.title}</a>
+                        <li key={index} className={style.icon}>
+            <a href={item.url} className={style.a}><i className={item.icon}></i>{item.title}</a>
             </li>
                     )
                 })
