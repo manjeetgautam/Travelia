@@ -3,7 +3,7 @@ import {Home} from './routes/Home'
 import {About} from './routes/About'
 import {Service} from './routes/Service'
 import {Contact} from './routes/Contact'
-import {Route, Routes} from "react-dom"
+import {Route, Routes} from "react-router-dom"
 
 function App() {
 
@@ -16,7 +16,7 @@ function App() {
       <Route path="/contact" element={ <Contact/>}/>
 
     </Routes>
-    <Navbar/>
+    {/* <Navbar/> */}
    
     </div>
   )

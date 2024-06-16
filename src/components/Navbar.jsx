@@ -1,6 +1,8 @@
-import React, { useEffect, useState } from "react";
+import React, { useState } from "react";
 import  "./Navbar.css";
 import { MenuItems } from "./MenuItems";
+import {Link} from "react-router-dom";
+
 
 export const Navbar = () => {
   const [hamicon, setHamicon] = useState(false);
