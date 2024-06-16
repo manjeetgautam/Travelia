@@ -15,6 +15,8 @@ export const About = () => {
         text="choose your favourite destination"
         />
 
+
+
     </>
   )
 }
