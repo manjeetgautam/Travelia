@@ -7,9 +7,9 @@ const Hero = (props) => {
         <div className={props.cName}>
             <img src={props.heroImg} alt="Heroimg" className="Heroimg" />
             <div className="hero-text">
-                <h1>{props.title}</h1>
-                <p>{props.text}</p>
-                <a href="/">
+                <h1 className='titleName'>{props.title}</h1>
+                <p className='para'>{props.text}</p>
+                <a className='hero-btn' href="/">
                     Travel Plan
                 </a>
             </div>

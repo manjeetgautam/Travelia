@@ -65,7 +65,8 @@
     width: 200px;
     height: 260px;
     border-radius: 10px;
-    
+    box-shadow: 5px 5px 20px -10px;
+    transition: ease-in-out 0.4s
 }
 
 .img-area .img1{
@@ -74,4 +75,9 @@
 
 .img-area .img2{
     margin-bottom: 35px;
+}
+
+.img-area img:hover{
+    width: 220px;
+    height: 280px;
 }
