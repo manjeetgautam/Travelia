@@ -2,6 +2,7 @@ import React from 'react'
 import { Navbar } from '../components/Navbar'
 import Hero from '../components/Hero'
 import '../components/Hero.css'
+import Footer from '../components/Footer'
 
 export const About = () => {
   return (
@@ -15,6 +16,7 @@ export const About = () => {
 
         text="choose your favourite destination"
         />
+        <Footer/>
     </>
   )
 }
